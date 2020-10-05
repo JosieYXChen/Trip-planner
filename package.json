@@ -1,0 +1,14 @@
+{
+  "name": "trip-planner",
+  "version": "1.0.0",
+  "description": "workshop",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "planner"
+  ],
+  "author": "Kevin & Josie",
+  "license": "ISC"
+}
