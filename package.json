@@ -4,11 +4,19 @@
   "description": "workshop",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "webpack -w"
   },
   "keywords": [
     "planner"
   ],
   "author": "Kevin & Josie",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "mapbox-gl": "^1.12.0"
+  }
 }
